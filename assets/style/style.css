@@ -28,6 +28,8 @@ body {
     background-image: url('../img/running.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    height: 40rem;
+
    
 }
 
@@ -52,7 +54,7 @@ h1 {
 
 hr {
     text-decoration: dotted;
-    margin-bottom: 5rem;
+    margin: 5rem auto;
 }
 
 
@@ -78,7 +80,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 2rem;
+    padding-left: 1rem;
     line-height: 2rem;
     font-size: 1.25rem;
     margin-bottom: 5rem;
@@ -101,4 +103,36 @@ hr {
     background: rgb(254, 140, 140);
     background: linear-gradient(180deg, rgba(254, 140, 140, 1) 0%, rgba(247, 230, 202, 1) 66%, rgba(202, 247, 231, 1) 98%);
 
+}
+
+.blockHomeTwo {
+    width: 20rem;
+    height: auto;
+    margin-top: 10rem;
+    padding: 3rem;
+    border: 1px solid #f8bc9a;
+    border-radius: 1rem;
+    background: rgb(254, 140, 140);
+    background: linear-gradient(180deg, rgba(254, 140, 140, 1) 50%, rgba(247, 230, 202, 1) 90%, rgba(202, 247, 231, 1) 100%);
+    color: white;
+    box-shadow: #f8bc9a 0px 3px 8px;
+}
+
+
+
+.threecards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    border: 1px solid  #f8bc9a;
+    padding: 0;
+    margin: 2rem;
+    
+}
+
+.cardImg{
+    width: 100%;
+    height: auto;
+    
 }
